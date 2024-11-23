@@ -1,8 +1,8 @@
 import CommentedImage from '../components/Commented Image'
 import CornyQuestion from '../components/Corny Question'
 import RandomButton from '../components/Random Button'
-
 import { useRef, useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 
 import {
   Button,
